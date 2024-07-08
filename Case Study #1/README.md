@@ -1,6 +1,8 @@
 # Danny's Diner - Customer Behavior Analysis
 
-![img](https://github.com/aishwaryaSudhakar01/8-Week-SQL-Challenge/assets/126569607/6bb0c6ad-4aff-49aa-8f35-ab6339669390)
+![img](https://github.com/aishwaryaSudhakar01/8-Week-SQL-Challenge/assets/126569607/61859805-e54a-4510-bac2-92cc286f1b13)
+
+![erd](https://github.com/aishwaryaSudhakar01/8-Week-SQL-Challenge/assets/126569607/02c51d04-4c49-4b4a-a059-05088ac9abba)
 
 **Dataset Link:** [Danny's Diner](https://8weeksqlchallenge.com/case-study-1/)
 
