@@ -11,6 +11,6 @@ IDE: BigQuery
 This is a 4-part Case Study. The links can be found as follows:
 
 1. [Part A - Pizza Metrics](https://github.com/aishwaryaSudhakar01/8-Week-SQL-Challenge/tree/main/Case%20Study%20%232/PART%20A)
-2. [Part B - Runner & Customer Experience]()
-3. [Part C - Ingredient Optimization]()
-4. [Part D - Pricing & Ratings]()
+2. [Part B - Runner & Customer Experience](https://github.com/aishwaryaSudhakar01/8-Week-SQL-Challenge/tree/main/Case%20Study%20%232/PART%20B)
+3. [Part C - Ingredient Optimization](https://github.com/aishwaryaSudhakar01/8-Week-SQL-Challenge/tree/main/Case%20Study%20%232/PART%20C)
+4. [Part D - Pricing & Ratings](https://github.com/aishwaryaSudhakar01/8-Week-SQL-Challenge/tree/main/Case%20Study%20%232/PART%20D)
