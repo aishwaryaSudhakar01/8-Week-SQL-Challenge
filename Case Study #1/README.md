@@ -11,7 +11,6 @@
 1. **Total Amount Each Customer Spent at the Restaurant**
 
    - **Problem Statement:** Calculate the total amount each customer has spent at Danny's Diner.
-   - **Business Purpose:** Understanding customer spending behavior helps design personalized marketing strategies and loyalty programs, identify high-value customers, and tailor offers to enhance their experience and retention.
    - **SQL Functions and Steps:**
      - **SUM()**: Calculate the total spend per customer.
      - **JOIN**: Combine sales and menu tables to get the price information.
@@ -24,8 +23,7 @@
 
 2. **Number of Days Each Customer Visited the Restaurant**
 
-   - **Problem Statement:** Determine the number of days each customer visited Danny's Diner.
-   - **Business Purpose:** Analyzing visit frequency helps in understanding customer loyalty and visit patterns, which can inform targeted promotions to increase visit frequency.
+   - **Problem Statement:** Determine the number of days each customer visited Danny's Diner. 
    - **SQL Functions and Steps:**
      - **COUNT(DISTINCT)**: Count unique visit days per customer.
      - **GROUP BY**: Aggregate the visit data by customer ID.
@@ -38,7 +36,6 @@
 3. **First Item Purchased by Each Customer**
 
    - **Problem Statement:** Identify the first item each customer purchased.
-   - **Business Purpose:** Knowing the first purchase can help in understanding initial customer preferences and designing onboarding offers or promotions.
    - **SQL Functions and Steps:**
      - **ROW_NUMBER()**: Assign a rank to each purchase by date for each customer.
      - **JOIN**: Combine sales and menu tables to get product information.
@@ -52,7 +49,6 @@
 4. **Most Purchased Item on the Menu**
 
    - **Problem Statement:** Determine the most purchased item on the menu and the total number of times it was purchased.
-   - **Business Purpose:** Identifying popular items helps in menu optimization and stock management.
    - **SQL Functions and Steps:**
      - **COUNT()**: Count the number of purchases for each item.
      - **RANK()**: Rank items by their purchase count.
@@ -66,7 +62,6 @@
 5. **Most Popular Item for Each Customer**
 
    - **Problem Statement:** Find the most popular item for each customer.
-   - **Business Purpose:** Understanding individual preferences allows for personalized recommendations and targeted marketing.
    - **SQL Functions and Steps:**
      - **COUNT()**: Count the number of times each item was purchased by each customer.
      - **RANK()**: Rank items by their purchase count for each customer.
@@ -80,7 +75,6 @@
 6. **First Item Purchased After Becoming a Member**
 
    - **Problem Statement:** Identify the first item purchased by each customer after they became a member.
-   - **Business Purpose:** This insight helps in understanding the impact of membership on purchase behavior and preferences.
    - **SQL Functions and Steps:**
      - **RANK()**: Assign a rank to each purchase by date after membership.
      - **JOIN**: Combine sales, menu, and membership tables to get necessary information.
@@ -94,7 +88,6 @@
 7. **Last Item Purchased Before Becoming a Member**
 
    - **Problem Statement:** Identify the last item purchased by each customer before they became a member.
-   - **Business Purpose:** This insight helps in understanding pre-membership behavior and designing pre-membership incentives.
    - **SQL Functions and Steps:**
      - **RANK()**: Assign a rank to each purchase by date before membership.
      - **JOIN**: Combine sales, menu, and membership tables to get necessary information.
@@ -108,7 +101,6 @@
 8. **Total Items and Amount Spent Before Becoming a Member**
 
    - **Problem Statement:** Calculate the total number of items and the total amount spent by each customer before they became a member.
-   - **Business Purpose:** Understanding pre-membership spending helps in assessing the potential value of non-members and designing targeted membership incentives.
    - **SQL Functions and Steps:**
      - **COUNT()**: Count the total number of items purchased.
      - **SUM()**: Calculate the total amount spent.
@@ -124,7 +116,6 @@
 9. **Points Earned by Each Customer**
 
    - **Problem Statement:** Calculate the total points earned by each customer, considering a $1 spend equates to 10 points and sushi has a 2x points multiplier.
-   - **Business Purpose:** This insight helps in understanding the effectiveness of the points system and customer engagement.
    - **SQL Functions and Steps:**
      - **SUM()**: Calculate the total points based on spend and item type.
      - **JOIN**: Combine sales and menu tables to get necessary information.
@@ -137,7 +128,6 @@
 10. **Points Earned by Members**
 
     - **Problem Statement:** Calculate the total points earned by customers A and B in the first week after joining the program, with a 2x points multiplier on all items.
-    - **Business Purpose:** This insight helps in evaluating the impact of the membership program on customer engagement and spending.
     - **SQL Functions and Steps:**
       - **SUM()**: Calculate the total points based on spend, item type, and membership status.
       - **JOIN**: Combine sales, menu, and membership tables to get necessary information.
@@ -155,7 +145,6 @@
 1. **Join All The Things**
 
    - **Problem Statement:** Recreate a table showing customer orders, product names, prices, and membership status.
-   - **Business Purpose:** Creating a comprehensive view of customer transactions helps in quick insights and decision-making.
    - **SQL Functions and Steps:**
      - **JOIN**: Combine sales, menu, and membership tables.
      - **CASE**: Determine membership status based on order date.
@@ -168,7 +157,6 @@
 2. **Rank All The Things**
 
    - **Problem Statement:** Rank products purchased by customers who are members, and return null for non-member purchases.
-   - **Business Purpose:** Understanding product preferences among members helps in targeted promotions and inventory management.
    - **SQL Functions and Steps:**
      - **RANK()**: Rank products based on purchase order date for members.
      - **JOIN**: Combine sales, menu, and membership tables.
